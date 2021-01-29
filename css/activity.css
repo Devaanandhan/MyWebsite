@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 3.625rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Calibiri', cursive;
+  color: #66BFBF;
+  font-weight: bold;
+  -webkit-text-stroke: 3px black;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:  #515a5a ;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.h2-middle-activity {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.h2-middle-pro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+}
+
+.h3-middle-activity {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.h3-middle-pro {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+p{
+  line-height: 2;
+}
+
+ul.b1 {
+  list-style-type: square;
+  line-height: 2;
+  color: white;
+  padding-left: 5%;
+}
+
+ul.a1 {
+  list-style-type: circle;
+  line-height: 2;
+  color: white;
+  padding-left: 5%;
+}
+
+ul.b {
+  list-style-type: square;
+  line-height: 2;
+  color: white;
+  padding-left: 32%;
+}
+
+ul.a {
+  list-style-type: circle;
+  line-height: 2;
+  color: white;
+  padding-left: 31%;
+}
+
+.p-middle-activity{
+  line-height: 2;
+  color: white;
+}
+
+hr{
+  border: dotted #EAF6F6 6px ;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+.top-container {
+  background-image: url("../images/lights.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.middle-container {
+  margin:100px 0;
+}
+
+.middle-container-activity {
+  background-color: #dc7633;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.middle-container-pro{
+  background-color:   #7d3c98   ;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.middle-container-contact{
+  background-color:  #f5cba7   ;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+
+.bottom-container {
+padding: 30px 20px;
+background-image: url("../images/lights.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.menu_social_item{
+	display: inline-block;
+	margin-right: 30px;
+  padding-top: 20px;
+}
+
+.activity-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.pro-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.activity-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border:5px solid black;
+  border-radius: 10px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 5px;
+  padding: 3% 3% 3% 4%;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+  color: black;
+}
+
+.btn {
+  background: #343a40;
+  background-image: -webkit-linear-gradient(top, #343a40, #343a40);
+  background-image: -moz-linear-gradient(top, #343a40, #343a40);
+  background-image: -ms-linear-gradient(top, #343a40, #343a40);
+  background-image: -o-linear-gradient(top, #343a40, #343a40);
+  background-image: linear-gradient(to bottom, #343a40, #343a40);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background:  #17202a ;
+  background-image: -webkit-linear-gradient(top,  #17202a ,  #17202a );
+  background-image: -moz-linear-gradient(top,  #17202a ,  #17202a );
+  background-image: -ms-linear-gradient(top,  #17202a ,  #17202a );
+  background-image: -o-linear-gradient(top,  #17202a ,  #17202a );
+  background-image: linear-gradient(to bottom,  #17202a ,  #17202a );
+  text-decoration: none;
+}
+
+/* Slides */

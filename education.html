@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Education | Devaan Profile Website</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="css/education.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+
+  <div class="top-container">
+    <h1>My Education Background</h1>
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <h2> Want to know where I studied? </h2>
+      <p class="intro">I have studied in Multimedia University(MMU) in Cyberjaya during my Diploma and Degree years. I chose to study Information Technology course because I am interested in learning programming, designing, networking and other lessons. </p>
+    </div>
+  </div>
+
+<div class="middle-container-education">
+
+        <div class="skills">
+          <h2 class= "h2-middle-education"> Multimedia University(MMU) Cyberjaya</h2>
+          <div class="education-row">
+            <img class="education-img" src="images/mmu.png" alt="">
+            <h3 class="h3-middle-education">Bachelor of Computer Science(Hons.) in Software Engineering</h3>
+            <h4 class="h4-middle-education">November 2017 - April 2019</h4>
+            <h4 class="h4-middle-education">MUET Test : BAND 4</h4>
+          </div>
+
+          <div class="education-row">
+            <img class="education-img" src="images/mmu2.jpg" alt="">
+            <h3 class="h3-middle-education">Diploma in Information Technology</h3>
+            <h4 class="h4-middle-education">June 2012 - October 2017</h4>
+            <h4 class="h4-middle-education">MUET Test : BAND 4</h4>
+          </div>
+
+        </div>
+  </div>
+
+  <div class="middle-container-fyp">
+      <div class="contact-me">
+        <h2 class= "h2-middle-fyp">Final Year Project</h2>
+        <h3 class="h3-middle-fyp">Local Tour Planner System </h3>
+        <p class="contact-message">This Planner System provides users a convenient way to plan their trips by itemising the landmarks to visit and find accommodation and restaurants.
+        Almost everyone loves traveling and they will enjoy it even more if uncertainties are removed. So, this system removes the fears of travelling by making planning convenient and easy, and smoothly integrates the planning and executing stages of travel</p>
+
+
+        <p style="font-weight: bold;">Here is the details of the Management Subsystem : </p>
+        <button class="collapsible">Home Page</button>
+        <div class="content">
+        <div class="fyp-row">
+            <img class="fyp-img" src="images/home.png" alt="">
+            <h3 class="h3-middle-fyp"></h3>
+            <p class="p-middle-fyp">This is the Homepage of the Local Tour Planner System. On the homepage, there is a search destinations panel where user able to search which destination that they want to visit and along with the starting and end date for their trip.</p>
+        </div>
+        </div>
+
+        <button class="collapsible">Plan Page</button>
+        <div class="content">
+        <div class="fyp-row">
+            <img class="fyp-img" src="images/planpage.png" alt="">
+            <h3 class="h3-middle-fyp"></h3>
+            <p class="p-middle-fyp">Once user have selected which destination they want to visit, it will redirect them to the destination page. In that page, there will be few plans that shows the nearby places of the searched destination.
+            After user have selected the plan, it will redirect them to this page where it have hotels, restaurant and attraction button will be shown. User shall choose the hotel, restaurant and attraction in the specific page and once user have select either places, the selected places will display on this page.
+          Then, User shall choose the time for each places. The time module for this plan uses an algorithm to calculate the time difference between two points by getting the location distance and time. With this, User able to know the estimate arrival time for each location. </p>
+        </div>
+        </div>
+
+        <button class="collapsible">Itinerary</button>
+        <div class="content">
+        <div class="fyp-row">
+            <img class="fyp-img" src="images/itinerary.png" alt="">
+            <h3 class="h3-middle-fyp"></h3>
+            <p class="p-middle-fyp"> This is the itinerary page of Local Tour Planner System. This page shows the selected plan which consists of hotels, destination and food which the user have chosen for their trip.
+              The selected time and date will be displayed. User also able to generate or download a PDF file for their itinerary according to their plan details.</p>
+        </div>
+        </div>
+
+      </div>
+
+    <a class="btn" href="MyFYP.pptx" style="text-decoration: none" target="_blank">MY FYP</a>
+
+  </div>
+
+  <div class="middle-container-contact">
+      <div class="contact-me">
+        <h2>Lets go back</h2>
+          <a class="btn" href="index.html" style="text-decoration: none">HOME</a>
+      </div>
+  </div>
+
+  <div class="bottom-container">
+    <ul class="menu_social ">
+      <li class="menu_social_item "><a href="#" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+      <li class="menu_social_item "><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+      <li class="menu_social_item "><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+      <li class="menu_social_item "><a href="https://twitter.com/home?lang=en" target="_blank"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+    </ul>
+    <p class="copyright">© 2020 Devaanandhan.</p>
+  </div>
+
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+  </script>
+
+
+</body>
+
+</html>
